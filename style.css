@@ -1,0 +1,112 @@
+
+/*
+Theme Name: class theme
+Author: rasif
+Author URI: http://www.hostinger.com/tutorials
+Description: My first responsive HTML5 theme
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: techlaunch.io
+*/
+
+
+* {
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+      background-color: #6e6666;
+      font-family: Helvetica;
+      color: #FFF;
+  }
+  .my-logo,
+  footer {
+    width: 100%;
+    padding-left: 1%;
+    margin-bottom: 8px;
+    background-color: #02126e;
+    border: 1px solid #0d498a;
+  }
+  body > header > h1 > a {
+  color: #ffffff;
+  font-weight: 400;
+  }
+  article > header {
+  
+  }
+  footer {
+    margin-top: 4px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* 'Margin: 0 auto' centers block content on the page */
+  .wrap {
+    width: 99%;
+    margin: 0 auto;
+  }
+  
+  .content-area {
+    display: inline-block;
+  }
+  
+  .content-thin {
+      width: 70%;
+  }
+  
+  .content-full-width {
+      width: 100%;
+  }
+  
+  .content-area,
+  .primary-sidebar {
+    display: inline-block;
+  }
+  
+  .primary-sidebar {
+    width: 29%;
+    padding: 1px;
+    vertical-align: top;
+    background-color: #7607aa;
+    text-align: center;
+  }
+  
+  .article-loop {
+      width: 45%;
+      text-align: left;
+      margin: 5px;
+      padding: 10px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .article-loop {
+      width: 99%;
+    }
+  }
+
+  
+  .article-full {
+    width: 99%;
+    padding: 1%;
+  }
+  
+  .article-loop,
+  .article-full {
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(102, 6, 6);
+    border-radius: 4px;
+    margin-bottom: 4px;
+    color: #ffffff;
+  }
+
+  @media screen and (max-width: 400px) {
+    .content-area,
+    .primary-sidebar {
+      width: 100%;
+    }
+  }
+
